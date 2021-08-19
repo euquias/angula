@@ -1,0 +1,14 @@
+{
+    "crud": [
+        {
+            "id": "1",
+            "nome": "euquias",
+            "email": "euquias@gmail.com"
+        },
+        {
+            "id": "2",
+            "nome": "lucas",
+            "email": "lucas@gmail.com"
+        }
+    ]
+}
