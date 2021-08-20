@@ -19,6 +19,7 @@ import { ComoFucionaComponent } from './views/como-fuciona/como-fuciona.componen
 import { BlogComponent } from './views/blog/blog.component';
 import { QuemSomosComponent } from './views/quem-somos/quem-somos.component'
 
+import {MatButtonModule}from'@angular/material/button';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { QuemSomosComponent } from './views/quem-somos/quem-somos.component'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
