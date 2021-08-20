@@ -13,7 +13,11 @@ import {MatSidenavModule}from'@angular/material/sidenav'
 import {MatListModule}from'@angular/material/list';
 import { HomeComponent } from './views/home/home.component'
 
-import {MatCardModule}from'@angular/material/card'
+import {MatCardModule}from'@angular/material/card';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ComoFucionaComponent } from './views/como-fuciona/como-fuciona.component';
+import { BlogComponent } from './views/blog/blog.component';
+import { QuemSomosComponent } from './views/quem-somos/quem-somos.component'
 
 
 
@@ -23,7 +27,11 @@ import {MatCardModule}from'@angular/material/card'
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ProductCrudComponent,
+    ComoFucionaComponent,
+    BlogComponent,
+    QuemSomosComponent
   ],
   imports: [
     BrowserModule,
