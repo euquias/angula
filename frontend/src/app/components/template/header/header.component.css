@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+      
+}
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.header .logo{
+    max-height: 130px;
+}
+.header .title-group{
+
+    padding-right: 10px;
+
+}
+.header .title-group{
+
+    padding-left:30px;
+
+}
+.header .title-group i{
+
+    padding-right:10px;
+
+}
+.matricula{
+    display: flex;
+    align-items: center;
+    
+
+}
